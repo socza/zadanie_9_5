@@ -1,10 +1,8 @@
-var amount = document.getElementsByClassName('button'),
-	button = amount.length;
-	
-console.log(button);
+var button = document.getElementsByClassName('button'),
+	max = button.length;
 
-for (var i = 0; i < button; i++) {
+for (var i = 0; i < max ; i++) {
 	
-	alert(button.innerHTML = console.log(button));
+	alert(button[i].innerText);
 
 }
